@@ -46,7 +46,7 @@ public class JmxCollector extends Collector implements Collector.Describable {
       String help;
       boolean attrNameSnakeCase;
       boolean cache = false;
-      Type type = Type.UNKNOWN;
+      Type type = Type.GUAGE;
       ArrayList<String> labelNames;
       ArrayList<String> labelValues;
     }
